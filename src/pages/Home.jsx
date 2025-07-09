@@ -3,6 +3,7 @@ import { Main } from '../components/Semantico.js'
 import { textPagina,TextConteinerDestaque, } from '../components/Objetos.js'
 import {ConteinerDestaque,ConteinerLateralright,ConteinerLateralLeft,ConteinerCards } from '../components/Conteiner.js'
 import { Cards } from '../components/Cards.js'
+import {AnimarConteinerLateralLeft,AnimarConteinerLateralRight} from '../components/Animacoes.jsx'
 function Home (){
     return(
         <>
@@ -13,14 +14,11 @@ function Home (){
                     <p>{TextConteinerDestaque.descricao}</p>
              </ConteinerDestaque>
                 
-             <ConteinerLateralLeft>
-                tteste
-             </ConteinerLateralLeft>
-                        
-             <ConteinerLateralright>
-                teste
-             </ConteinerLateralright>
-                        
+
+             
+            <AnimarConteinerLateralLeft/>
+            <AnimarConteinerLateralRight/>
+                      
              <ConteinerCards>
                 <Cards>
                     card 1

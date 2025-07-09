@@ -27,7 +27,7 @@ export const ConteinerDestaque = styled.div`
 export const ConteinerLateralLeft = styled.div`
     display:flex;
     flex-direction: column;
-    width: 40rem;
+    width: 15rem;
     height: 15rem;
     align-self: flex-start;
     border-radius: 5%;
