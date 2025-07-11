@@ -4,16 +4,13 @@ import { textPagina,TextConteinerDestaque, } from '../components/Objetos.js'
 import {ConteinerDestaque,ConteinerLateralright,ConteinerLateralLeft,ConteinerCards } from '../components/Conteiner.js'
 import { Cards } from '../components/Cards.js'
 import {AnimarConteinerLateralLeft,AnimarConteinerLateralRight} from '../components/animation/Animacoes.jsx'
+import { CarrosselPrincipal } from '../components/animation/Carrossel.jsx'
 function Home (){
     return(
         <>
         <Main>
              <h1>{textPagina.descricao}</h1>
-             <ConteinerDestaque>
-                    <h1>{TextConteinerDestaque.titulo}</h1>
-                    <p>{TextConteinerDestaque.descricao}</p>
-             </ConteinerDestaque>
-                
+            <CarrosselPrincipal/>
 
              
             <AnimarConteinerLateralLeft/>

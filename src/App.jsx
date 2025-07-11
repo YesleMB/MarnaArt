@@ -6,6 +6,9 @@ import { FaInstagram,FaGithub,FaLinkedin } from "react-icons/fa";
 import {ConteinerFooter} from './components/Conteiner';
 import { color } from 'framer-motion';
 import { Icones } from './components/Icones';
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
 
 
 function App() {
